@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+body {
+  font-family: "Urbanist";
+  background-color: #282C34;
+  color: white;
+}
+
+header {
+  max-width: 1200px;
+  width: 90%;
+  margin: 200px auto;
+  font-size: 4em;
+  display: flow-root;
+}
+
+header a {
+  color: lightskyblue;
+}
+
+header img {
+  width: 45%;
+  float: left;
+  margin-right: 10%;
+}
