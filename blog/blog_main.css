@@ -14,10 +14,11 @@ body header, body main {
 
 header {
   border-bottom: 2.5px dashed orange;
-  padding: 20px 0;
 }
 
 #command {
+  padding: 20px 0;
+  border-bottom: 2.5px dashed orange;
   font-size: 2.5em;
   font-family: "Consolas";
   color: #5b96f5;
