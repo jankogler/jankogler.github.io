@@ -5,13 +5,6 @@
     <title>Jan Kogler</title>
     <link>https://jankogler.github.io/</link>
     <description>I write stuff here.</description>
-    <language>en-us</language>    
-    <image>
-      <title>Picture Title</title>
-      <link>http://YourSite.com</link>
-      <url>http://yoursite.com/yourpicture.gif</url>
-      <width>70</width>
-      <height>55</height>
-    </image>
+    <language>en-us</language>
   </channel>
 </rss>
