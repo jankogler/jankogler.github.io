@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <atom:link href="https://jankogler.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <title>Jan Kogler</title>
+    <link>https://jankogler.github.io/</link>
+    <description>I write stuff here.</description>
+    <language>en-us</language>    
+    <image>
+      <title>Picture Title</title>
+      <link>http://YourSite.com</link>
+      <url>http://yoursite.com/yourpicture.gif</url>
+      <width>70</width>
+      <height>55</height>
+    </image>
+  </channel>
+</rss>
