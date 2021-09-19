@@ -6,20 +6,37 @@ body {
   color: white;
 }
 
-header {
-  max-width: 1200px;
+header, main {
   width: 90%;
-  margin: 200px auto;
-  font-size: 4em;
-  display: flow-root;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-header a {
-  color: lightskyblue;
+#logo-wrapper {
+  font-family: "Consolas";
+  font-size: 2em;
+  color: dodgerblue;
+  text-shadow: 1px 1px purple;
+  padding: 20px 0;
 }
 
-header img {
-  width: 45%;
-  float: left;
-  margin-right: 10%;
+#jan, #insertion-point {
+  display: inline;
+}
+
+@keyframes blinking {
+  from { visibility: hidden; }
+  to { visibility: visible; }
+}
+
+#insertion-point {
+  font-weight: bold;
+  animation: blinking 1s steps(2, end) infinite;
+}
+
+#webring-wrapper {
+  padding: 20px 0;
+  margin: 40px 0;
+  border-top: 1px dashed white;
+  border-bottom: 1px dashed white;
 }
